@@ -678,7 +678,8 @@ body{
 	}
 
 	.approach-item-label{
-		font-family: 'Courgette', cursive;
+		font-family: 'Playfair Display', serif;
+		font-style: italic;
 		font-weight: 400;
 		font-size: 22px;
 		line-height: 1;
