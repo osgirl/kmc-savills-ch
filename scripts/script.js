@@ -36,8 +36,25 @@
 			  autoplaySpeed: 3500, 
 			  dots: true,
 			  cssEase: 'linear',
-			  speed: 1500
+			  speed: 1500,
+			  asNavFor: '.slideshow-content-holder'
 			});
+
+			$('.slideshow-content-holder').slick({
+			  infinite: true, 
+			  slidesToShow: 1, 
+			  slidesToScroll: 1, 
+			  arrows: false, 
+			  autoplay: true, 
+			  fade: true,
+			  autoplaySpeed: 3500, 
+			  dots: false,
+			  cssEase: 'linear',
+			  speed: 500,
+			  asNavFor: '.slideshow-holder'
+			});
+
+			
 
 			$('.featprop-photo-holder').slick({
 			  infinite: true, 
