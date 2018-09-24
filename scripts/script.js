@@ -47,7 +47,7 @@
 			  autoplay: true, 
 			  fade: true,
 			  autoplaySpeed: 5500,
-			  speed: 100,
+			  speed: 300,
 			  dots: false,
 			  cssEase: 'linear',
 			  asNavFor: '.featprop-info-slick-holder',
