@@ -891,7 +891,8 @@ body{
 	}
 
 	.reports-item-label{
-		font-family: 'Courgette', cursive;
+		/*font-family: 'Courgette', cursive;*/
+		font-family: 'Patua One', cursive;
 		font-weight: 400;
 		font-size: 22px;
 		line-height: 1;
