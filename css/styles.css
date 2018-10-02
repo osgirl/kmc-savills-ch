@@ -1066,7 +1066,7 @@ body{
 	.services-item-label {
 	    /*font-family: 'Roboto Condensed', sans-serif;*/
 	    font-family: 'Patua One', cursive;
-	    font-weight: 700;
+	    /*font-weight: 700;*/
 	    font-size: 40px;
 	    position: absolute;
 	    left: -2px;
@@ -1112,7 +1112,7 @@ body{
 		text-align: center;
 		/*font-family: 'Roboto Condensed', sans-serif;*/
 		font-family: 'Patua One', cursive;
-	    font-weight: 700;
+	    font-weight: 400;
 	    font-size: 30px;
 	    color: #000;
 	    text-transform: uppercase;
