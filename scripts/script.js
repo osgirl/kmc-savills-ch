@@ -121,6 +121,12 @@
 		    }, "slow"); 
 		})
 
+		$('.featprop-btn a').click(function(){ 
+		    $("html, body").animate({ 
+		      scrollTop: $('.contact-wrap').offset().top - 50
+		    }, "slow"); 
+		})
+
 		$(window).scroll(function() {    
 		    var scroll = $(window).scrollTop();
 		    if (scroll > 0) {
