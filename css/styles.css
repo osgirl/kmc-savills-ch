@@ -469,6 +469,29 @@ body{
 	 	box-shadow: inset 0 100px 0 #6489c5;   
 	}
 
+	.slideshow-holder .slick-arrow {
+	    position: absolute;
+	    top: 50%;
+	    z-index: 200;
+	    height: 50px;
+	    width: 50px;
+	    font-size: 0;
+	    padding: 0;
+	    margin: 0;
+	    border: 0;
+	    outline: 0;
+	}
+
+	.slideshow-holder .slick-next{
+		right: 0;
+		background: url(../images/next-arrow.png) no-repeat center / contain;
+	}
+
+	.slideshow-holder .slick-prev{
+		left: 0;
+		background: url(../images/prev-arrow.png) no-repeat center / contain;
+	}
+
 
 /* Featured Properties */
 .featprop-wrap{
