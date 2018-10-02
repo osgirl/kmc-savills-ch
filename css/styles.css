@@ -719,7 +719,8 @@ body{
 	}
 
 	.approach-item-label{
-		font-family: 'Playfair Display', serif;
+		/*font-family: 'Playfair Display', serif;*/
+		font-family: 'Patua One', cursive;
 		font-style: italic;
 		font-weight: 400;
 		font-size: 22px;
