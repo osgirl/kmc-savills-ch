@@ -550,7 +550,16 @@ body{
 		font-size: 22px;
 		text-align: center;
 		line-height: 50px;
+		transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
 	}
+
+		.featprop-btn a:hover{
+			background: #fee850;
+			color: #001844;
+		}
 
 	.featprop-link{
 		position: relative;
@@ -572,7 +581,15 @@ body{
 	    height: 50px;
 	    line-height: 50px;
 	    border: 1px solid #001844;
+	    transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
 	}
+
+		.featprop-link a:hover{
+			background: #001844;
+		}
 
 	.featprop-info-label{
 		font-size: 13px;
